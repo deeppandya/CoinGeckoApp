@@ -70,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         handler.removeCallbacks(apiRunnable)
     }
 
-    fun showToastMessage(message: String) {
+    private fun showToastMessage(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
 
