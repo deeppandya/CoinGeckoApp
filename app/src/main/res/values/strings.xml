@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CoinGeckoApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="btc_rate">BTC Rate : $%1$s</string>
+    <string name="eth_rate">ETH Rate : $%1$s</string>
+    <string name="updating_rates">Updating rates</string>
+
+    <string name="html_page" translatable="false">
+        <![CDATA[
+            <!doctype html>
+                <html>
+                <head>
+                <title>CoinGeckoApp</title>
+                </head>
+                <body>
+                BTC Rate : <b>$%1$s</b>
+                <br/>
+                ETH Rate : <b>$%2$s</b>
+                </body>
+                </html>
+        ]]>
+    </string>
+    <string name="rates_with_ui">Rate with UI</string>
+    <string name="rates_with_webview">Rates with webview</string>
+    <string name="refresh">Refresh rates</string>
+
+</resources>
